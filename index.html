@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+</head>
+<body>
+    <h1 id="title">What type of dogs do you like?</h1>
+    <p id="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis commodi suscipit modi voluptate deleniti totam illo eum distinctio mollitia repudiandae autem possimus, odit, porro quia earum harum, esse quasi minus amet incidunt vel cupiditate? Perspiciatis quaerat aperiam porro quos praesentium, error deleniti quasi omnis pariatur, officiis culpa, ipsam illo earum facilis iusto sed quam vel molestias sint? Saepe aperiam accusantium est iure accusamus assumenda, impedit sed cumque beatae eum quibusdam ducimus inventore consequatur facere non nulla quam, officiis possimus natus. Qui a repudiandae esse quis! Tempore, dolorum pariatur? Totam non eligendi ullam voluptas, vero ad est voluptatem qui suscipit accusantium unde beatae mollitia quidem autem cupiditate eaque porro quas rerum fugit! Reiciendis magnam temporibus accusamus totam repudiandae et impedit aspernatur inventore perferendis atque cumque sunt, voluptatibus ipsum doloremque expedita laborum iure asperiores! Quidem similique autem eligendi qui, deserunt non quaerat totam tenetur voluptatem excepturi voluptates, quos debitis! Asperiores tenetur officiis, dicta sint veritatis ipsum natus minima vero itaque. Ab laborum reprehenderit, repellat voluptates nam dolorem vero corporis? Numquam veritatis pariatur minus, blanditiis non accusantium eius laborum sint optio dolorum quisquam obcaecati explicabo at autem reprehenderit omnis qui nostrum, quo quod distinctio aut et deleniti animi? Repellat mollitia laboriosam dolore officiis!</p>
+    <form action="#" id="survey-form">
+        <label for="name" id="name-label">Name</label>
+        <input type="text" id="name" placeholder="give me a name" required>
+        <br>
+        <label for="email" id="email-label">Email</label>
+        <input type="email" id="email" placeholder="give me an email" required>
+        <br>
+        <label for="number" id="number-label">Number</label>
+        <input type="number" id="number" min="100" max="100000" placeholder="give me a number between 100, and 100000" required>
+        <br>
+        <label for="dropdown"></label>
+        <select name="dogtype" id="dropdown">
+            <option value="sporty">sporty</option>
+            <option value="loyal">loyal</option>
+            <option value="agile">agile</option>
+        </select>
+        <br>
+        <label for="frisbee">
+            <input type="radio" id="frisbee" name="play" value="frisbee">Frisbee
+        </label>
+        <label for="friendly">
+            <input type="radio" id="friendly" name="play" value="friendly">friendly
+        </label>
+        <br>
+        <label for="funny">
+            <input type="checkbox" id="funny" name="personality" value="funny">funny 
+        </label>
+        <label for="cherry">
+            <input type="checkbox" id="cherry" name="personality" value="cherry">cherry
+        </label>
+        <br>
+        <label for="request">
+            <textarea name="request" id="request" cols="30" rows="10">
+
+            </textarea>
+            Tell us about your request....
+        </label>
+        <br>
+        <input type="submit" id="submit">
+
+    </form>
+</body>
+</html>
